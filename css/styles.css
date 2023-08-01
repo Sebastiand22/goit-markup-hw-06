@@ -757,13 +757,26 @@ a {
   border-radius: 4px;
   margin-top: 12px;
 }
-input {
+.form-group .input-box {
   height: 40px;
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   gap: 4px;
   margin-top: 4px;
 }
+.input-box:focus+ .icon-input{border-radius: 4px;
+  
+outline:none;
+  color: #2196f3;
+}
+.input-box:focus{border-radius: 4px;
+  border: 1px solid #2196F3;
+outline:none;}
+
+.textarea:focus{border-radius: 4px;
+  border: 1px solid #2196F3;
+outline:none;}
+
 
 form span:not(.comm):not(.telephone):not(.check):not(.terms-and-conditions) {
   position: relative;
@@ -890,6 +903,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   margin-left: 45px;
   border-radius: 4px;
 }
+
 
 
 .form-checkbox {
